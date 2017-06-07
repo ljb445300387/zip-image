@@ -22,7 +22,7 @@ public class Test {
 		byte[] byteArray = byteArrayOutputStream.toByteArray();
 		System.out.println(byteArray.length);
 		scale.toFile(new File("2.jpg"));
-		
+		System.out.println();
 	}
 
 }
